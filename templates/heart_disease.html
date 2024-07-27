@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #000000;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heart Disease Prediction using ML</h1>
+    <form method="POST">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br>
+        <label for="sex">Sex:</label>
+        <input type="text" id="sex" name="sex"><br>
+        <label for="cp">cp:</label>
+        <input type="text" id="cp" name="cp"><br>
+        <label for="trestbps">trestbps:</label>
+        <input type="text" id="trestbps" name="trestbps"><br>
+        <label for="chol">chol:</label>
+        <input type="text" id="chol" name="chol"><br>
+        <label for="fbs">fbs:</label>
+        <input type="text" id="fbs" name="fbs"><br>
+        <label for="restecg">restecg:</label>
+        <input type="text" id="restecg" name="restecg"><br>
+        <label for="thalach">thalach:</label>
+        <input type="text" id="thalach" name="thalach"><br>
+        <label for="exang">exang:</label>
+        <input type="text" id="exang" name="exang"><br>
+        <label for="oldpeak">oldpeak:</label>
+        <input type="text" id="oldpeak" name="oldpeak"><br>
+        <label for="slope">slope:</label>
+        <input type="text" id="slope" name="slope"><br>
+        <label for="ca">ca:</label>
+        <input type="text" id="ca" name="ca"><br>
+        <label for="thal">thal:</label>
+        <input type="text" id="thal" name="thal"><br>
+        <button type="submit">Heart Disease Test Result</button>
+    </form>
+    <h2>{{ diagnosis }}</h2>
+</body>
+</html>

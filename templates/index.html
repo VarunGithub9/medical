@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #070807;
+        }
+        @media (max-width: 600px) {
+            a {
+                display: block;
+                margin: 10px 0;
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Health Assistant</h1>
+    <nav>
+        <a href="{{ url_for('diabetes') }}">Diabetes Prediction</a>
+        <a href="{{ url_for('heart_disease') }}">Heart Disease Prediction</a>
+        <a href="{{ url_for('breast_cancer') }}">Breast Cancer Prediction</a>
+    </nav>
+</body>
+</html>
