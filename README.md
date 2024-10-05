@@ -22,3 +22,13 @@
   <li>Heart Disease: Features such as age, sex, chest pain type, resting blood pressure, etc.
 Contributing</li>
 </ul>
+<br>
+![image](https://github.com/user-attachments/assets/e71572c4-96cf-43db-a616-87def8c251d5)
+<br>
+![image](https://github.com/user-attachments/assets/2fdcebc5-5108-418e-8e30-bd3f9697d732)
+<br>
+![image](https://github.com/user-attachments/assets/f2915e43-ba59-4a26-b835-f6581c415300)
+
+
+
+
